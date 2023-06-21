@@ -1,0 +1,117 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("./poster/GOTG-edited.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+#header{
+    position: absolute;
+    top:0; 
+    left: 0;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li{
+    list-style: none;
+    padding: 0px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: ghostwhite;
+    border: 2px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#header ul li a:hover{
+    background:linear-gradient(45deg, cyan, rgba(245,30,122,1));
+    border-radius: 17px;
+    padding: 10px;
+}
+
+.text-container{
+    color: white;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#marvel {
+    background-color: red;
+    text-transform: uppercase;
+    padding: 3px;
+    margin-left: 10px;
+}
+#studios{
+    letter-spacing: 1px;
+    font-weight: 450;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+}
+
+#studios, #marvel{
+    font-size: 20px;
+    text-transform: uppercase;
+    transform: translateY(-250px);
+}
+
+.text-container div a{
+    text-decoration: none;
+    color: white;
+}
+
+#title, #volume-3, .text-container div p{
+    text-transform: uppercase;
+    color: ghostwhite
+}
+
+#volume-3{
+    color: rgb(255,157,74);
+}
+
+#title span {
+    font-size: small;
+    font-family: 'Teko', sans-serif;
+}
+
+.text-container div p{
+    font-size: 8px;
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+.caption{
+    position: relative;
+    width: 43%;
+}
+
+.text-container div {
+    padding: 5px;
+    /* border: 2px solid white; */
+}
